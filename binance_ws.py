@@ -4,7 +4,7 @@ import json
 import time
 import requests
 
-api_key_rsi = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjbHVlIjoiNjQ3MjBmNzE0OThkNzVkYTM2ZThmMzZmIiwiaWF0IjoxNjg1MTk2Njc1LCJleHAiOjMzMTg5NjYwNjc1fQ.D6PMHOIaCAti2hEZiFe3opj5lI1dWCl48JG3_6X_PbM'
+api_key_rsi = ''
 
 interval = str(input('1h, 1d, or 1m for RSI interval : ')) 
    
@@ -17,8 +17,8 @@ rselling = 69
 
 #api pour binance : 
 
-apikeybn = 'HEkPluA6BuqBprJaz2AU5wwpAPWiTnBmc3nPQjbP04qWoKUAQ8wtT84pLC8VwuF8'
-apisecuritybn = 'QF1TiWI3rAVcrbwhgR1kkG7BQ7MQsTPCc1NHFBxhyI2HVczgNZIXVo3Q1aK0LZYI'
+apikeybn = ''
+apisecuritybn = ''
 
 client = Client(apikeybn, apisecuritybn)
 my_account = client.get_account()
